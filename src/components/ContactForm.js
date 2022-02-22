@@ -22,7 +22,7 @@ const ContactForm = () => {
     function sendEmail(e) {
         e.preventDefault();
         if (errors.name == true && errors.email ==   true && errors.subject == true && errors.message == true) {
-            emailjs.sendForm('service_3xrjgt9', 'template_7laqf18', e.target, 'user_Cw1MLl6DCSUTccHH21Go7')
+            emailjs.sendForm('', '', e.target, '')
                 .then((result) => {
                     console.log(result.status);
                     if (result.status == 200) {
