@@ -1,0 +1,12 @@
+#notFound p{
+    font-size: 52px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 100px;
+}
+#notFound span{
+    color: #18d26e;
+}
+#notFound img{
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+.socialItem {
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    border-radius: 500px;
+    line-height: 1;
+    align-items: center;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+}
+
+.item {
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+.socialItem:hover {
+    background-color: #18d26e;
+}
+
+@media (max-width: 992px) {
+    .socialItem{
+        margin:auto;
+        margin-right: 10px;
+    }
+}

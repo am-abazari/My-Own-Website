@@ -1,0 +1,44 @@
+.Interested {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    transition: ease-in-out 0.3s;
+    width: 247px;
+    height: 72px;
+    margin-bottom: 20px;
+}
+
+.Interested h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.Interested i {
+    font-size: 32px;
+    padding-right: 10px;
+    line-height: 1;
+}
+
+.Interested:hover{
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Media Querys */
+
+@media (max-width: 992px) {
+    .Interested {
+        width: 199px;
+    }
+}
+@media (max-width: 768px) {
+    .Interested {
+        width: 100%;
+    }
+}

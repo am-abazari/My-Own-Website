@@ -1,0 +1,11 @@
+#items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@media (max-width: 992px) {
+    #items > div:nth-child(9){
+        flex-grow: 2;
+    }
+}

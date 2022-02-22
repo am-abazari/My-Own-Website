@@ -1,0 +1,74 @@
+#moreAboutMe {
+    display: flex;
+}
+
+#moreAboutMe img {
+    margin: auto;
+    width: 340px;
+    height: 340px;
+    margin-right: 15px;
+}
+
+#moreAboutMe .info h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #18d26e;
+}
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.life{
+    margin-top: 8px !important;
+}
+.cover{
+    margin-top: 16px !important;
+}
+#goals p{
+    margin-left: 15px;
+    padding-top: 16px !important;
+    font-size: 17px;
+}
+.coutBox{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 76px;
+}
+#Interested{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+/* Media Querys */
+
+@media (max-width: 992px) {
+    #moreAboutMe img {
+        width: 80%;
+        margin: auto;
+        height: auto;
+        margin-bottom: 30px;
+        margin-top: 50px;
+
+    }
+    #moreAboutMe{
+        flex-wrap: wrap;
+    }
+
+}
+@media (max-width: 768px) {
+    #moreAboutMe img {
+        width: 80%;
+        margin: auto;
+        height: auto;
+        margin-bottom: 30px;
+        margin-top: 50px;
+    }
+}

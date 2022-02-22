@@ -1,0 +1,34 @@
+#footer {
+    font-size: 14px;
+    transition: .4s ease all;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding: 8px 20px 8px;
+}
+#creadit{
+    margin-left: 20px;
+}
+#footer #creadit a {
+    color: #18d26e;
+    font-weight: bold;
+    transition: all .4s ease-in-out;
+}
+
+#footer #creadit a:hover {
+    color: #fff;
+}
+
+@media (max-width: 1200px) {
+    #footer {
+        width: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        text-align: left;
+    }
+}
+@media (max-width: 600px) {
+    #footer {
+        text-align: center;
+    }
+}

@@ -1,0 +1,67 @@
+{
+  "short_name": "Abazari",
+  "name": "Amirhossein Abazari",
+  "description": "Amirhossein Abazari, Official website , Front-End Web Developer",
+  "icons": [
+    {
+      "src": "./images/profile-64.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./images/profile-32.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./images/profile-24.ico",
+      "sizes": "24x24",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "./images/profile-16.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    },
+
+    {
+      "src": "./images/profile-120.png",
+      "sizes": "120x120",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/profile-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/profile-167.png",
+      "sizes": "167x167",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/profile-152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/profile-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/profile-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./images/profile-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

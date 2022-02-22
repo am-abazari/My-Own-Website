@@ -1,0 +1,30 @@
+.dataItems {
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-bottom: 10px !important;
+    transition: ease-in-out 0.3s;
+}
+
+.dataItems i {
+    color: #18d26e;
+    font-size: 15px;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+.dataItems strong {
+    margin-right: 5px;
+}
+
+.dataItems a {
+    color: #18d26e;
+}
+
+@media (max-width: 600px) {
+    .dataItems {
+        width: 100%;
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,16 @@
+.notice {
+    font-size: 20px!important;
+    color: #18d26e;
+    margin: 0;
+    margin: -5px 0 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+
+#contactItems {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}

@@ -1,0 +1,81 @@
+header {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: sticky;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding-top: 10px;
+    display: flex;
+    margin-bottom: 50px;
+    transition: ease-in-out 0.3s;
+}
+
+header .centerCet h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.centerCet {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .centerCet nav ul {
+    display: flex;
+    margin-top: 10px;
+}
+
+header .centerCet nav ul li {
+    margin-left: 30px;
+}
+
+header .centerCet nav ul li a {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.active {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.active::before {
+    content: "";
+    position: absolute;
+    margin-top: 30px;
+    height: 2px;
+    width: 25px !important;
+    background-color: #18d26e;
+    transition: .3s ease-in-out all;
+}
+
+.navItems::before {
+    content: "";
+    position: absolute;
+    margin-top: 30px;
+    height: 2px;
+    width: 0px;
+    background-color: #18d26e;
+    transition: .3s ease-in-out all;
+}
+
+.navItems:hover::before {
+    width: 25px;
+}
+
+/* Media Querys */
+
+@media (max-width: 992px) {
+    header .centerCet nav {
+        display: none;
+    }
+    header .centerCet h1 {
+        font-size: 24px;
+        margin-left: 10px;
+        margin-top: -20px;
+    }
+}

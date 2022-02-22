@@ -1,0 +1,33 @@
+.mainTitle h2 {
+    font-size: 14px;
+    color: #aaaaaa;
+    font-weight: 700;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    transition: ease-in-out 0.3s;
+}
+
+.mainTitle p {
+    margin: 0;
+    margin: -15 px 0 15 px 0;
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    margin-bottom: 15px;
+    transition: ease-in-out 0.3s;
+}
+
+.mainTitle h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #18d26e;
+    margin: 4px 10px;
+}

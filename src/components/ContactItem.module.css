@@ -1,0 +1,75 @@
+.item {
+    color: #444444;
+    padding: 20px;
+    width: 525px;
+    height: 106px;
+    background: rgba(255, 255, 255, 0.08);
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+}
+.mails{
+    float: left;
+}
+.item .titleIcon {
+    font-size: 24px;
+    color: #18d26e;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    width: 50px !important;
+    height: 50px !important;
+    padding-top: 13px;
+    border-radius: 500px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.texts h3 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    margin: 10px 0 8px 18px;
+}
+
+.texts p {
+    padding: 0;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 24px;
+    font-size: 15px;
+    margin: 0 0 0 18px;
+    font-weight: bold;
+}
+
+.texts a {
+    padding: 0;
+    color: #18d26e;
+    line-height: 24px;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.socialMedia i {
+    color: white;
+    font-size: 19px;
+    transition: .3s all ease-in-out;
+}
+
+.socialMedia i:hover {
+    color: #18d26e;
+}
+
+/* Media Querys */
+
+@media (max-width: 1200px) {
+    .item {
+        width: 430px;
+    }
+}
+
+@media (max-width: 992px) {
+    .item {
+        width: 100%;
+        height: auto;
+    }
+}
