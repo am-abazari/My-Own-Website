@@ -88,9 +88,10 @@ const About = () => {
                     <Interested color="#2449D8" className="fab fa-css3-alt" >CSS 3</Interested>
                     <Interested color="#EAD41C" className="fab fa-js-square" >JavaScript</Interested>
                     <Interested color="#29CC61" className="fas fa-code" >Web Design</Interested>
-                    <Interested color="#2D70A3" className="fab fa-medium-m" >Material Design</Interested>
+                    <Interested color="#2D70A3" className="fa-solid fa-cube" >Material Design</Interested>
                     <Interested color="#6C10ED" className="fab fa-bootstrap" >Bootstrap</Interested>
                     <Interested color="#C76494" className="fab fa-sass" >SASS</Interested>
+                    <Interested color="#35B3EB" className="fa-solid fa-paintbrush" >Tailwind</Interested>
                     <Interested color="#5CCFEE" className="fab fa-react" >React JS</Interested>
                     <Interested color="#7248B6" className="far fa-registered" >Redux</Interested>
                     <Interested color="#169160" className="far fa-file-alt" >SPA Programming</Interested>
@@ -98,12 +99,11 @@ const About = () => {
                     <Interested color="#2D70A3" className="fab fa-python" >Python</Interested>
                     <Interested color="#454684" className="fas fa-desktop" >Machine learning</Interested>
                     <Interested color="#E44D30" className="fab fa-git-alt" >Git</Interested>
-                    <Interested color="#F2C200" className="fa fa-linux" >Linux</Interested>
                     <Interested color="#F2C400" className="fa-solid fa-language" >German</Interested>
+                    <Interested color="#F2C200" className="fa fa-linux" >Linux</Interested>
                     <Interested color="#808BB6" className="fa-brands fa-php" >PHP</Interested>
                     <Interested color="#F7291B" className="fa-brands fa-laravel" >Laravel</Interested>
                     <Interested color="#F2CAE9" className="fa-solid fa-sitemap" >MVC</Interested>
-                    <Interested color="#7CB601" className="fa-brands fa-node" >Node JS</Interested>
                 </section>
             </section>
             <Footer />

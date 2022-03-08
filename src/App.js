@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, Redirect, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 // components
 import MainPage from './components/MainPage';
 import About from './components/About';
@@ -10,14 +10,15 @@ import Notfound from "./components/Notfound"
 function App() {
     return (
         <div className="App">
-            <Switch>
-                <Route path="/about" component={About} />
-                <Route path="/services" component={Services} />
-                <Route path="/contact" component={Contact} />
-                <Route path="/notfound" component={Notfound} />
-                <Route exact path="/" component={MainPage} />
-                <Redirect to="/notfound" />
-            </Switch>
+            <Routes>
+                <Route path='*' element={<Notfound />} />
+                
+                <Route path="/about" element={<About />} />
+                <Route path="/services" element={<Services />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/notfound" element={<Notfound />} />
+                <Route path="/" element={<MainPage />} />
+            </Routes>
 
         </div>
     );
