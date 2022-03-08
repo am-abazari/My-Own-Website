@@ -5,7 +5,7 @@ A Personal Website made in React
 
 <img width="800" alt="React Musci Player Screenshot" src="SHOW.png"/>
 
-Simple and optimized Personal Website [( See Demo )](https://abazari.ir/) . It includes: 
+Simple and optimized Personal Website [( See Demo )](https://amabazari.ir/) . It includes: 
 
 
 - [x] React 16.5.8
