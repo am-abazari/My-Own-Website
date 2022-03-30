@@ -11,7 +11,6 @@ function App() {
         <div className="App">
             <Routes>
                 <Route path='*' element={<Notfound />} />
-                
                 <Route path="/about" element={<About />} />
                 <Route path="/services" element={<Services />} />
                 <Route path="/contact" element={<Contact />} />
