@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from "./SerivceItem.module.css";
+import styles from "./ServiceItem.module.css";
 
 
-const SerivceItem = (props) => {
+const ServiceItem = (props) => {
     return (
         <div className={styles.item}>
             <i class={props.src}></i>
@@ -11,4 +11,4 @@ const SerivceItem = (props) => {
     );
 };
 
-export default SerivceItem;
+export default ServiceItem;
